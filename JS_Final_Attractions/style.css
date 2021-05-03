@@ -1,0 +1,112 @@
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.container .wrap .locationSet {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.banner {
+    background-image: url("https://handler.travel/wp-content/uploads/2020/03/%E6%A5%93%E8%91%89%E5%9C%B0%E5%9C%96%E6%B0%91%E5%AE%BF-1024x683.jpg");
+    min-height: 400px;
+    background-position: center center;
+    background-size: cover;
+}
+
+.banner .h1 {
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    padding-top: 120px;
+}
+
+.banner .bannerSelect {
+    display: block;
+    margin: 0 auto;
+    margin-top: 100px;
+    min-width: 300px;
+    min-height: 40px;
+    font-size: 24px;
+    background: rgba(255, 255, 255, 0.7);
+    border: 3px solid #ffffff;
+    border-radius: 3px;
+}
+
+.banner .bannerSelect option {
+    text-align: center;
+}
+
+.region{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.locationInfoStyle {
+    max-width: 400px;
+    background: #ffffff;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+    margin-top: 40px;
+    /* @media(max-width : 320px){
+        min-width: 320px;
+    } */
+}
+
+.locationInfoStyle .imgsize {
+    max-width: 400px;
+}
+.locationInfoStyle .imgsize img {
+    width: 400px;
+    max-height: 225px;
+    object-fit: cover;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -70px;
+    padding: 0 10px;
+    color: white;
+    min-width: 320px;
+}
+
+.title p {
+    font-size: 16px;
+    line-height: 39.81px;
+}
+
+.content {
+    padding: 0 50px 15px 50px;
+    min-width: 320px;
+}
+
+.content p{
+    display: inline;
+}
+
+.content  div{
+    margin: 10px;
+}
+
+.fa-clock{
+    color: green;
+    font-size: 16px;
+}
+
+.fa-map-marker-alt{
+    color: yellowgreen;
+    font-size: 16px;
+}
+
+.fa-phone-square-alt{
+    color: blue;
+    font-size: 16px;
+}
+
+
+.content  div p{
+    padding: 5px;
+}
